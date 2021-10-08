@@ -35,14 +35,10 @@
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo de la chouette agence" height="40" /></a>
-							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-							</button>
 						</div>
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li><a href="index.html">Accueil</a></li>
-								<li><a href="page2.html">Contact</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -51,7 +47,7 @@
 			<!-- bloc-0 END -->
 
 			<!-- bloc-6 -->
-			<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+			<div class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12">
@@ -68,21 +64,21 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1">
 								<div class="form-group">
-									<label>Nom</label>
+									<label for="name">Nom</label>
 									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>Adresse email</label>
+									<label for="email">Adresse email</label>
 									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
-									<label>Comment nous avez-vous connu ?</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<label for="from">Comment nous avez-vous connu ?</label>
+									<input id="from" class="form-control" type="email" required id="input_504" />
 								</div>
 								<div class="form-group">
-									<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+									<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
 									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
