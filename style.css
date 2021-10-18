@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.directory a {
+    color: white!important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -751,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #a35e3e;
+    background-color: #99380B;
     padding: 40px 40px 40px 40px;
 }
 
@@ -769,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #a35e3e;
+    background-color: #99380B;
 }
 
 .tc-white {
@@ -777,7 +781,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #a35e3e;
+    background: #99380B;
     color: #FFFFFF!important;
 }
 
@@ -795,7 +799,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #a35e3e!important;
+    color: #99380B!important;
 }
 
 .ltc-atomic-tangerine:hover {
